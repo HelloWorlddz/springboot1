@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hzm.spingboot.mapper.EmployeeMapper">
+    <!--    public Employee getEmpById(Integer id);
+
+     public void insertEmp(Employee employee);-->
+    <select id="getEmpById" resultType="employee" parameterType="int">
+        SELECT * FROM employee WHERE id=#{id}
+    </select>
+
+    <!--回填pojo属性 <- 数据库自动生成主键public void insertEmp(Employee employee);
+    useGeneratedKeys=“true” keyProperty=“id”-->
+    <insert id="insertEmp" parameterType="employee" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO employee(lastName,email,gender,d_id) VALUES (#{lastName},#{email},#{gender},#{dId})
+    </insert>
+</mapper>

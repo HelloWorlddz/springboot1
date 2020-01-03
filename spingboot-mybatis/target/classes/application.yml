@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    username: root
+    password: 86450328hzm
+    url: jdbc:mysql://localhost:3306/atguigu-springboot-jdbc?serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  #别名
+  type-aliases-package: com.hzm.spingboot.model
+  #mapper映射文件
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  #开启驼峰命名规则映射（法二）
+  configuration:
+    map-underscore-to-camel-case: true
+  #核心配置文件（可以在配置文件中配置法三）
+  #config-location: classpath:mybatis/mybatis-config.xml

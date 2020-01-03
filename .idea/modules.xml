@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hzm-spring-boot-starter/hzm-spring-boot-starter.iml" filepath="$PROJECT_DIR$/hzm-spring-boot-starter/hzm-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hzm-spring-boot-starter-autoconfigurer/hzm-spring-boot-starter-autoconfigurer.iml" filepath="$PROJECT_DIR$/hzm-spring-boot-starter-autoconfigurer/hzm-spring-boot-starter-autoconfigurer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hzm-spring-boot-test/hzm-spring-boot-test.iml" filepath="$PROJECT_DIR$/hzm-spring-boot-test/hzm-spring-boot-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spingboot-mybatis/spingboot-mybatis.iml" filepath="$PROJECT_DIR$/spingboot-mybatis/spingboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-jsp/spring-boot-web-jsp.iml" filepath="$PROJECT_DIR$/spring-boot-web-jsp/spring-boot-web-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-application-listener/springboot-application-listener.iml" filepath="$PROJECT_DIR$/springboot-application-listener/springboot-application-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-config/springboot-config.iml" filepath="$PROJECT_DIR$/springboot-config/springboot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" filepath="$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springdatajpa/springboot-springdatajpa.iml" filepath="$PROJECT_DIR$/springboot-springdatajpa/springboot-springdatajpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web-error/springboot-web-error.iml" filepath="$PROJECT_DIR$/springboot-web-error/springboot-web-error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web-restfulcrud/springboot-web-restfulcrud.iml" filepath="$PROJECT_DIR$/springboot-web-restfulcrud/springboot-web-restfulcrud.iml" />
+    </modules>
+  </component>
+</project>

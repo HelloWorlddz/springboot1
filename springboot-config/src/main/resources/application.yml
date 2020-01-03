@@ -1,0 +1,31 @@
+server:
+  port: 8081
+
+
+#person:
+ #age: 18
+ #boss: false
+ #birth: 2017/12/12
+ #maps: {k1: v1,k2: v2}
+ #lists:
+   # - lisi
+   # - zhaoliu
+ #dog:
+  #  name: xiaohan
+  #  age: 20
+# name: hzm
+logging: #指定包级别下
+  level:
+    com.hzm.springboot: trace
+  #file:  #不指定路径，则在当前项目下生成springboot.log日志；也可以指定完整的路径
+  #  springboot.log
+
+  #在当前磁盘的根目录下创建spring文件夹和里面的log文件夹，使用spring.log作为默认文件
+  #path: /spring/log
+
+
+  #pattern:
+    #在控制台输出的日志格式
+    #console: %d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n
+    #在文件中日志的输出格式
+    #file: %d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} ==== %msg%n

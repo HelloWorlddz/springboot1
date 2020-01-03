@@ -1,0 +1,3 @@
+com\hzm\springboot\HelloService.class
+com\hzm\springboot\HelloServiceAutoConfiguration.class
+com\hzm\springboot\HelloProperties.class
